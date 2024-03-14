@@ -24,8 +24,17 @@
 	
 <div class="social-icons">
     <a href="#" id="wechat-icon"><img src="Wechat.png" alt="WeChat Logo" class="icon"></a>
-    <a href="whatsapp://send?phone=85366340049&amp;text=Hello%20World!" target="myframe">
-		<img src="Whatsapp.png" alt="WhatsApp Logo" class="icon"></a>
+    <a href="#" onclick="openWhatsApp()">
+    <img src="Wechat.png" alt="WhatsApp Logo" class="icon"></a>
+
+  <script>
+    function openWhatsApp() {
+      var phoneNumber = "+85366340049"; // Replace with your phone number
+      var url = "https://api.whatsapp.com/send?phone=" + phoneNumber;
+      window.open(url);
+    }
+  </script>
+	
     <a href="https://www.linkedin.com/in/dr-cecilia-chan" target="myframe"><img src="LinkedIn.png" alt="LinkedIn Logo" class="icon"></a>
 </div>
 
