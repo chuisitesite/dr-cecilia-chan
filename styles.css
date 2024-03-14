@@ -27,7 +27,7 @@ body {
 .modal {
     display: none; /* Hidden by default */
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     left: 0;
     top: 0;
     width: 100%;
@@ -43,7 +43,7 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 90%; /* To give some padding on the sides on mobile */
-    max-width: 400px; /* You can adjust this value */
+    max-width: 300px; /* You can adjust this value */
 }
 
 .close {
