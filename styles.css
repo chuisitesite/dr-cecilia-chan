@@ -1,17 +1,11 @@
-/* Style for WeChat logo container */
-.wechat-logo-container {
-    margin-top: 50px;
-    padding-left: 20px; /* Add some padding on the left if needed */
-}
-
-/* Style for WeChat logo */
-.wechat-logo {
+/* Add your styles here */
+.icon {
+    width: 50px; /* Change as needed */
+    height: auto;
+    margin: 5px;
     cursor: pointer;
-    width: 80px; /* Set the width to 80px */
-    height: 80px; /* Set the height to 80px */
 }
 
-/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -25,18 +19,14 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal-content {
-    position: relative;
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
-    max-width: 300px; /* Maximum width for the QR code modal */
 }
 
-/* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -51,9 +41,9 @@
     cursor: pointer;
 }
 
-/* Style for WeChat QR code */
 .wechat-qr {
     display: block;
-    max-width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* You can adjust the size */
 }
